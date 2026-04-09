@@ -3,7 +3,16 @@ body {
     margin: 0;
     background: #FFB6C1;
 }
-
+/* Header image style */
+.profile-pic {
+    width: 150px;         /* image का size */
+    height: 150px;        /* image का size */
+    border-radius: 50%;   /* circle बनाना */
+    object-fit: cover;    /* image proportion maintain करे */
+    display: block;       /* center करने के लिए */
+    margin: 0 auto 20px auto; /* top-bottom margin */
+    border: 3px solid #fff;   /* optional border */
+}
 header {
     background: #333;
     color: white;
